@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D10F45CC2B4AC45F00417BEE /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F45CB2B4AC45F00417BEE /* Button.swift */; };
+		D10F45CF2B4B47F000417BEE /* UserDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F45CE2B4B47F000417BEE /* UserDataView.swift */; };
+		D10F45D12B4B4B0600417BEE /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F45D02B4B4B0600417BEE /* String.swift */; };
+		D10F45D32B4B4CE500417BEE /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F45D22B4B4CE500417BEE /* Int.swift */; };
+		D10F45D52B4B51D000417BEE /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F45D42B4B51D000417BEE /* StatisticsView.swift */; };
+		D10F45D72B4B551400417BEE /* DataButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F45D62B4B551400417BEE /* DataButtonsView.swift */; };
+		D10F45DA2B4B63ED00417BEE /* PuzzlesListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F45D92B4B63ED00417BEE /* PuzzlesListCollectionViewController.swift */; };
+		D10F45DC2B4B64E500417BEE /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F45DB2B4B64E500417BEE /* InputView.swift */; };
+		D11041D72B342F72009D58E6 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11041D62B342F72009D58E6 /* UserModel.swift */; };
+		D11AFE5C2B291FFE00F045A7 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11AFE5B2B291FFE00F045A7 /* APIManager.swift */; };
+		D11DB3F52B4C126100CBF118 /* ProfileFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11DB3F42B4C126100CBF118 /* ProfileFormView.swift */; };
+		D11DB3F72B4C167100CBF118 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11DB3F62B4C167100CBF118 /* Date.swift */; };
+		D12178912B51633A00C90669 /* MyPuzzlesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12178902B51633A00C90669 /* MyPuzzlesViewModel.swift */; };
+		D121B1D12B3993000008D251 /* PuzzlesListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D121B1D02B3993000008D251 /* PuzzlesListCollectionViewCell.swift */; };
+		D13075A62B409C0A001F36A2 /* NumpadCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13075A52B409C0A001F36A2 /* NumpadCollectionViewCell.swift */; };
+		D131E6282B46018300D903AD /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D131E6272B46018300D903AD /* CollectionView.swift */; };
+		D148A2202B55282B00709243 /* UserDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D148A21F2B55282B00709243 /* UserDataViewModel.swift */; };
+		D148A2222B552B4D00709243 /* StatisticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D148A2212B552B4D00709243 /* StatisticsViewModel.swift */; };
+		D148A2242B552EBD00709243 /* DataButtonsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D148A2232B552EBD00709243 /* DataButtonsViewModel.swift */; };
+		D148A2262B5531F500709243 /* InputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D148A2252B5531F500709243 /* InputViewModel.swift */; };
+		D148A2282B5553E700709243 /* PuzzlePlayMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D148A2272B5553E700709243 /* PuzzlePlayMenuViewModel.swift */; };
+		D148A22A2B5553F800709243 /* PuzzleSolutionMenuModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D148A2292B5553F800709243 /* PuzzleSolutionMenuModelView.swift */; };
+		D148A22C2B55556700709243 /* LoginFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D148A22B2B55556700709243 /* LoginFormViewModel.swift */; };
+		D148A22E2B55566800709243 /* ProfileFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D148A22D2B55566800709243 /* ProfileFormViewModel.swift */; };
+		D14A6B402B3DAB7700AAB504 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14A6B3F2B3DAB7700AAB504 /* ImagePicker.swift */; };
+		D14B89152B35809800CFF2AC /* PuzzleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14B89142B35809800CFF2AC /* PuzzleModel.swift */; };
+		D14D00002B2782E4005263F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D14DFFFF2B2782E4005263F5 /* Assets.xcassets */; };
+		D14D00032B2782E4005263F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14D00012B2782E4005263F5 /* LaunchScreen.storyboard */; };
+		D14D000D2B278399005263F5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14D000C2B278399005263F5 /* LoginViewController.swift */; };
+		D14D000F2B2783A5005263F5 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14D000E2B2783A5005263F5 /* RegistrationViewController.swift */; };
+		D14DFFF72B2782E3005263F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DFFF62B2782E3005263F5 /* AppDelegate.swift */; };
+		D14DFFF92B2782E3005263F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DFFF82B2782E3005263F5 /* SceneDelegate.swift */; };
+		D1547F0C2B339A1100A649AA /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1547F0B2B339A1100A649AA /* TextField.swift */; };
+		D158508C2B4848DA0035B9AA /* MyPuzzlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158508B2B4848DA0035B9AA /* MyPuzzlesViewController.swift */; };
+		D15A786C2B4D44BC0023D22B /* [[Int]].swift in Sources */ = {isa = PBXBuildFile; fileRef = D15A786B2B4D44BC0023D22B /* [[Int]].swift */; };
+		D15A786E2B4D4F230023D22B /* PuzzlePlayMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15A786D2B4D4F230023D22B /* PuzzlePlayMenuView.swift */; };
+		D15A78702B4D4F300023D22B /* PuzzleSolutionMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15A786F2B4D4F300023D22B /* PuzzleSolutionMenuView.swift */; };
+		D17A3E532B3C800400A85B07 /* DefaultCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17A3E522B3C800400A85B07 /* DefaultCollectionViewCell.swift */; };
+		D17DE4322B3ADF4200DCC5F1 /* DonutChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17DE4312B3ADF4200DCC5F1 /* DonutChart.swift */; };
+		D17DE4342B3ADFC500DCC5F1 /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17DE4332B3ADFC500DCC5F1 /* StatisticModel.swift */; };
+		D180BA212B33A38600AA1176 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D180BA202B33A38600AA1176 /* LoadingViewController.swift */; };
+		D185E57C2B4EC31C007F5F2E /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D185E57B2B4EC31C007F5F2E /* View.swift */; };
+		D19242632B3E31E500C01BFF /* PuzzleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19242622B3E31E500C01BFF /* PuzzleViewController.swift */; };
+		D19242652B3E3B7700C01BFF /* PuzzleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19242642B3E3B7700C01BFF /* PuzzleCollectionViewCell.swift */; };
+		D19D1F002B4366AE00C1EAC1 /* AttemptModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D1EFF2B4366AE00C1EAC1 /* AttemptModel.swift */; };
+		D19D1F032B437E1B00C1EAC1 /* HelperModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D1F022B437E1B00C1EAC1 /* HelperModel.swift */; };
+		D1AB805A2B475DCC00EA7276 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB80592B475DCC00EA7276 /* UserViewController.swift */; };
+		D1B1FBE62B32EA8600D17918 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B1FBE52B32EA8600D17918 /* KeychainManager.swift */; };
+		D1BC72412B4C32FE003CEC49 /* LoginFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BC72402B4C32FE003CEC49 /* LoginFormView.swift */; };
+		D1BC72432B4C38F5003CEC49 /* FormModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BC72422B4C38F5003CEC49 /* FormModel.swift */; };
+		D1BC72452B4C46EA003CEC49 /* PuzzleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BC72442B4C46EA003CEC49 /* PuzzleCollectionViewController.swift */; };
+		D1BC72472B4C4706003CEC49 /* NumpadCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BC72462B4C4706003CEC49 /* NumpadCollectionViewController.swift */; };
+		D1BC724A2B4C4776003CEC49 /* StandingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BC72492B4C4776003CEC49 /* StandingsTableViewController.swift */; };
+		D1BF66772B3D6FC200825944 /* GrabberModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BF66762B3D6FC200825944 /* GrabberModel.swift */; };
+		D1C273272B28A2A0007B9456 /* NationalityPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C273262B28A2A0007B9456 /* NationalityPickerViewController.swift */; };
+		D1C5EDE02B4FF98000CE208A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C5EDDF2B4FF98000CE208A /* LoginViewModel.swift */; };
+		D1C5EDE22B500E6900CE208A /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C5EDE12B500E6900CE208A /* Notification.swift */; };
+		D1C5EDE42B501B8A00CE208A /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C5EDE32B501B8A00CE208A /* RegistrationViewModel.swift */; };
+		D1C5EDE62B50324200CE208A /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C5EDE52B50324200CE208A /* ProfileViewModel.swift */; };
+		D1C7D19A2B3EC8B80004CC21 /* CandidateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C7D1992B3EC8B80004CC21 /* CandidateCollectionViewCell.swift */; };
+		D1DC81B82B29AC0500ECE6DC /* AuthorizationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DC81B72B29AC0500ECE6DC /* AuthorizationModel.swift */; };
+		D1DC81BA2B29DD0E00ECE6DC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DC81B92B29DD0E00ECE6DC /* ProfileViewController.swift */; };
+		D1DE232E2B498B1B006BC90D /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DE232D2B498B1B006BC90D /* EditProfileViewController.swift */; };
+		D1DE25752B531A65000AD04D /* PuzzleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DE25742B531A64000AD04D /* PuzzleViewModel.swift */; };
+		D1DE25772B531A7D000AD04D /* NationalityPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DE25762B531A7D000AD04D /* NationalityPickerViewModel.swift */; };
+		D1DE25792B531A99000AD04D /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DE25782B531A99000AD04D /* UserViewModel.swift */; };
+		D1E188C72B52A08C00B35246 /* StandingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E188C62B52A08C00B35246 /* StandingsViewModel.swift */; };
+		D1E188C92B5309FF00B35246 /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E188C82B5309FF00B35246 /* EditProfileViewModel.swift */; };
+		D1F1BF472B46BEF60086F289 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F1BF462B46BEF60086F289 /* Array.swift */; };
+		D1F1BF492B46CD0A0086F289 /* StandingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F1BF482B46CD0A0086F289 /* StandingsViewController.swift */; };
+		D1F1BF4B2B46D34A0086F289 /* StandingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F1BF4A2B46D34A0086F289 /* StandingModel.swift */; };
+		D1F1BF4D2B46D7210086F289 /* UsersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F1BF4C2B46D7210086F289 /* UsersTableViewCell.swift */; };
+		D1F1BF512B46DDD20086F289 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F1BF502B46DDD20086F289 /* TableView.swift */; };
+		F80052B104CE829FD0573850 /* Pods_SudokuSolver___iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D49958BB64DC11CFD90CD0 /* Pods_SudokuSolver___iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C3C61055E3BFA54D382F0F2D /* Pods-SudokuSolver - iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudokuSolver - iOS.debug.xcconfig"; path = "Target Support Files/Pods-SudokuSolver - iOS/Pods-SudokuSolver - iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C9D49958BB64DC11CFD90CD0 /* Pods_SudokuSolver___iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_SudokuSolver___iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10F45CB2B4AC45F00417BEE /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		D10F45CE2B4B47F000417BEE /* UserDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataView.swift; sourceTree = "<group>"; };
+		D10F45D02B4B4B0600417BEE /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		D10F45D22B4B4CE500417BEE /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		D10F45D42B4B51D000417BEE /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		D10F45D62B4B551400417BEE /* DataButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataButtonsView.swift; sourceTree = "<group>"; };
+		D10F45D92B4B63ED00417BEE /* PuzzlesListCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzlesListCollectionViewController.swift; sourceTree = "<group>"; };
+		D10F45DB2B4B64E500417BEE /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		D11041D62B342F72009D58E6 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		D11AFE5B2B291FFE00F045A7 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		D11DB3F42B4C126100CBF118 /* ProfileFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFormView.swift; sourceTree = "<group>"; };
+		D11DB3F62B4C167100CBF118 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		D12178902B51633A00C90669 /* MyPuzzlesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPuzzlesViewModel.swift; sourceTree = "<group>"; };
+		D121B1D02B3993000008D251 /* PuzzlesListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzlesListCollectionViewCell.swift; sourceTree = "<group>"; };
+		D13075A52B409C0A001F36A2 /* NumpadCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumpadCollectionViewCell.swift; sourceTree = "<group>"; };
+		D131E6272B46018300D903AD /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		D148A21F2B55282B00709243 /* UserDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataViewModel.swift; sourceTree = "<group>"; };
+		D148A2212B552B4D00709243 /* StatisticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewModel.swift; sourceTree = "<group>"; };
+		D148A2232B552EBD00709243 /* DataButtonsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataButtonsViewModel.swift; sourceTree = "<group>"; };
+		D148A2252B5531F500709243 /* InputViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewModel.swift; sourceTree = "<group>"; };
+		D148A2272B5553E700709243 /* PuzzlePlayMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzlePlayMenuViewModel.swift; sourceTree = "<group>"; };
+		D148A2292B5553F800709243 /* PuzzleSolutionMenuModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleSolutionMenuModelView.swift; sourceTree = "<group>"; };
+		D148A22B2B55556700709243 /* LoginFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormViewModel.swift; sourceTree = "<group>"; };
+		D148A22D2B55566800709243 /* ProfileFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFormViewModel.swift; sourceTree = "<group>"; };
+		D14A6B3F2B3DAB7700AAB504 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		D14B89142B35809800CFF2AC /* PuzzleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleModel.swift; sourceTree = "<group>"; };
+		D14D00022B2782E4005263F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D14D00042B2782E4005263F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D14D000C2B278399005263F5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D14D000E2B2783A5005263F5 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		D14DFFF32B2782E3005263F5 /* SudokuSolver - iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SudokuSolver - iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14DFFF62B2782E3005263F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D14DFFF82B2782E3005263F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D14DFFFF2B2782E4005263F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "SudokuSolver - iOS/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		D1547F0B2B339A1100A649AA /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		D158508B2B4848DA0035B9AA /* MyPuzzlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPuzzlesViewController.swift; sourceTree = "<group>"; };
+		D15A786B2B4D44BC0023D22B /* [[Int]].swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[[Int]].swift"; sourceTree = "<group>"; };
+		D15A786D2B4D4F230023D22B /* PuzzlePlayMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzlePlayMenuView.swift; sourceTree = "<group>"; };
+		D15A786F2B4D4F300023D22B /* PuzzleSolutionMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleSolutionMenuView.swift; sourceTree = "<group>"; };
+		D17A3E522B3C800400A85B07 /* DefaultCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultCollectionViewCell.swift; sourceTree = "<group>"; };
+		D17DE4312B3ADF4200DCC5F1 /* DonutChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutChart.swift; sourceTree = "<group>"; };
+		D17DE4332B3ADFC500DCC5F1 /* StatisticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
+		D180BA202B33A38600AA1176 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		D185E57B2B4EC31C007F5F2E /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		D19242622B3E31E500C01BFF /* PuzzleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleViewController.swift; sourceTree = "<group>"; };
+		D19242642B3E3B7700C01BFF /* PuzzleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleCollectionViewCell.swift; sourceTree = "<group>"; };
+		D19D1EFF2B4366AE00C1EAC1 /* AttemptModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttemptModel.swift; sourceTree = "<group>"; };
+		D19D1F022B437E1B00C1EAC1 /* HelperModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperModel.swift; sourceTree = "<group>"; };
+		D1AB80592B475DCC00EA7276 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		D1B1FBE52B32EA8600D17918 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		D1BC72402B4C32FE003CEC49 /* LoginFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormView.swift; sourceTree = "<group>"; };
+		D1BC72422B4C38F5003CEC49 /* FormModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormModel.swift; sourceTree = "<group>"; };
+		D1BC72442B4C46EA003CEC49 /* PuzzleCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleCollectionViewController.swift; sourceTree = "<group>"; };
+		D1BC72462B4C4706003CEC49 /* NumpadCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumpadCollectionViewController.swift; sourceTree = "<group>"; };
+		D1BC72492B4C4776003CEC49 /* StandingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsTableViewController.swift; sourceTree = "<group>"; };
+		D1BF66762B3D6FC200825944 /* GrabberModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrabberModel.swift; sourceTree = "<group>"; };
+		D1C273262B28A2A0007B9456 /* NationalityPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalityPickerViewController.swift; sourceTree = "<group>"; };
+		D1C5EDDF2B4FF98000CE208A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		D1C5EDE12B500E6900CE208A /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		D1C5EDE32B501B8A00CE208A /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		D1C5EDE52B50324200CE208A /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		D1C7D1992B3EC8B80004CC21 /* CandidateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateCollectionViewCell.swift; sourceTree = "<group>"; };
+		D1DC81B72B29AC0500ECE6DC /* AuthorizationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationModel.swift; sourceTree = "<group>"; };
+		D1DC81B92B29DD0E00ECE6DC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D1DE232D2B498B1B006BC90D /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		D1DE25742B531A64000AD04D /* PuzzleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleViewModel.swift; sourceTree = "<group>"; };
+		D1DE25762B531A7D000AD04D /* NationalityPickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalityPickerViewModel.swift; sourceTree = "<group>"; };
+		D1DE25782B531A99000AD04D /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		D1E188C62B52A08C00B35246 /* StandingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsViewModel.swift; sourceTree = "<group>"; };
+		D1E188C82B5309FF00B35246 /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
+		D1F1BF462B46BEF60086F289 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		D1F1BF482B46CD0A0086F289 /* StandingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsViewController.swift; sourceTree = "<group>"; };
+		D1F1BF4A2B46D34A0086F289 /* StandingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingModel.swift; sourceTree = "<group>"; };
+		D1F1BF4C2B46D7210086F289 /* UsersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewCell.swift; sourceTree = "<group>"; };
+		D1F1BF502B46DDD20086F289 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		ED273C59E48E3FFC28355387 /* Pods-SudokuSolver - iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudokuSolver - iOS.release.xcconfig"; path = "Target Support Files/Pods-SudokuSolver - iOS/Pods-SudokuSolver - iOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D14DFFF02B2782E3005263F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80052B104CE829FD0573850 /* Pods_SudokuSolver___iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E720C4C183083A716EF347D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3C61055E3BFA54D382F0F2D /* Pods-SudokuSolver - iOS.debug.xcconfig */,
+				ED273C59E48E3FFC28355387 /* Pods-SudokuSolver - iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A84AEF1B535CB1A18F761CBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9D49958BB64DC11CFD90CD0 /* Pods_SudokuSolver___iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D10F45CD2B4B47D500417BEE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D10F45CE2B4B47F000417BEE /* UserDataView.swift */,
+				D148A21F2B55282B00709243 /* UserDataViewModel.swift */,
+				D10F45D42B4B51D000417BEE /* StatisticsView.swift */,
+				D148A2212B552B4D00709243 /* StatisticsViewModel.swift */,
+				D10F45D62B4B551400417BEE /* DataButtonsView.swift */,
+				D148A2232B552EBD00709243 /* DataButtonsViewModel.swift */,
+				D10F45DB2B4B64E500417BEE /* InputView.swift */,
+				D148A2252B5531F500709243 /* InputViewModel.swift */,
+				D11DB3F42B4C126100CBF118 /* ProfileFormView.swift */,
+				D148A22D2B55566800709243 /* ProfileFormViewModel.swift */,
+				D1BC72402B4C32FE003CEC49 /* LoginFormView.swift */,
+				D148A22B2B55556700709243 /* LoginFormViewModel.swift */,
+				D15A786D2B4D4F230023D22B /* PuzzlePlayMenuView.swift */,
+				D148A2272B5553E700709243 /* PuzzlePlayMenuViewModel.swift */,
+				D15A786F2B4D4F300023D22B /* PuzzleSolutionMenuView.swift */,
+				D148A2292B5553F800709243 /* PuzzleSolutionMenuModelView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D10F45D82B4B63CA00417BEE /* CollectionViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D10F45D92B4B63ED00417BEE /* PuzzlesListCollectionViewController.swift */,
+				D1BC72442B4C46EA003CEC49 /* PuzzleCollectionViewController.swift */,
+				D1BC72462B4C4706003CEC49 /* NumpadCollectionViewController.swift */,
+			);
+			path = CollectionViewControllers;
+			sourceTree = "<group>";
+		};
+		D11AFE5A2B291FF300F045A7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D11AFE5B2B291FFE00F045A7 /* APIManager.swift */,
+				D1B1FBE52B32EA8600D17918 /* KeychainManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D121B1CF2B3992E30008D251 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D121B1D02B3993000008D251 /* PuzzlesListCollectionViewCell.swift */,
+				D17A3E522B3C800400A85B07 /* DefaultCollectionViewCell.swift */,
+				D19242642B3E3B7700C01BFF /* PuzzleCollectionViewCell.swift */,
+				D1C7D1992B3EC8B80004CC21 /* CandidateCollectionViewCell.swift */,
+				D13075A52B409C0A001F36A2 /* NumpadCollectionViewCell.swift */,
+				D1F1BF4C2B46D7210086F289 /* UsersTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D14D000A2B2782F6005263F5 /* Startup */ = {
+			isa = PBXGroup;
+			children = (
+				D14D00012B2782E4005263F5 /* LaunchScreen.storyboard */,
+				D14DFFF82B2782E3005263F5 /* SceneDelegate.swift */,
+				D14DFFF62B2782E3005263F5 /* AppDelegate.swift */,
+			);
+			path = Startup;
+			sourceTree = "<group>";
+		};
+		D14D000B2B27830A005263F5 /* ScreenViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D14D000C2B278399005263F5 /* LoginViewController.swift */,
+				D1C5EDDF2B4FF98000CE208A /* LoginViewModel.swift */,
+				D14D000E2B2783A5005263F5 /* RegistrationViewController.swift */,
+				D1C5EDE32B501B8A00CE208A /* RegistrationViewModel.swift */,
+				D1DC81B92B29DD0E00ECE6DC /* ProfileViewController.swift */,
+				D1C5EDE52B50324200CE208A /* ProfileViewModel.swift */,
+			);
+			path = ScreenViewControllers;
+			sourceTree = "<group>";
+		};
+		D14DFFEA2B2782E3005263F5 = {
+			isa = PBXGroup;
+			children = (
+				D14DFFF52B2782E3005263F5 /* SudokuSolver - iOS */,
+				D14DFFF42B2782E3005263F5 /* Products */,
+				8E720C4C183083A716EF347D /* Pods */,
+				A84AEF1B535CB1A18F761CBD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D14DFFF42B2782E3005263F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D14DFFF32B2782E3005263F5 /* SudokuSolver - iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D14DFFF52B2782E3005263F5 /* SudokuSolver - iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D1BC72482B4C4760003CEC49 /* TableViewControllers */,
+				D10F45D82B4B63CA00417BEE /* CollectionViewControllers */,
+				D10F45CD2B4B47D500417BEE /* Views */,
+				D17DE4302B3ADF3600DCC5F1 /* SwiftUI */,
+				D121B1CF2B3992E30008D251 /* Cells */,
+				D1547F0A2B3399FF00A649AA /* Extensions */,
+				D1DC81B62B29AA3E00ECE6DC /* Models */,
+				D11AFE5A2B291FF300F045A7 /* Managers */,
+				D1C273252B28A28C007B9456 /* ModalViewControllers */,
+				D14D000B2B27830A005263F5 /* ScreenViewControllers */,
+				D14D000A2B2782F6005263F5 /* Startup */,
+				D14DFFFF2B2782E4005263F5 /* Assets.xcassets */,
+				D14D00042B2782E4005263F5 /* Info.plist */,
+			);
+			path = "SudokuSolver - iOS";
+			sourceTree = "<group>";
+		};
+		D1547F0A2B3399FF00A649AA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D1547F0B2B339A1100A649AA /* TextField.swift */,
+				D14A6B3F2B3DAB7700AAB504 /* ImagePicker.swift */,
+				D131E6272B46018300D903AD /* CollectionView.swift */,
+				D1F1BF462B46BEF60086F289 /* Array.swift */,
+				D1F1BF502B46DDD20086F289 /* TableView.swift */,
+				D10F45CB2B4AC45F00417BEE /* Button.swift */,
+				D10F45D02B4B4B0600417BEE /* String.swift */,
+				D10F45D22B4B4CE500417BEE /* Int.swift */,
+				D11DB3F62B4C167100CBF118 /* Date.swift */,
+				D15A786B2B4D44BC0023D22B /* [[Int]].swift */,
+				D185E57B2B4EC31C007F5F2E /* View.swift */,
+				D1C5EDE12B500E6900CE208A /* Notification.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D17DE4302B3ADF3600DCC5F1 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				D17DE4312B3ADF4200DCC5F1 /* DonutChart.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		D1BC72482B4C4760003CEC49 /* TableViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D1BC72492B4C4776003CEC49 /* StandingsTableViewController.swift */,
+			);
+			path = TableViewControllers;
+			sourceTree = "<group>";
+		};
+		D1C273252B28A28C007B9456 /* ModalViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D1C273262B28A2A0007B9456 /* NationalityPickerViewController.swift */,
+				D1DE25762B531A7D000AD04D /* NationalityPickerViewModel.swift */,
+				D180BA202B33A38600AA1176 /* LoadingViewController.swift */,
+				D19242622B3E31E500C01BFF /* PuzzleViewController.swift */,
+				D1DE25742B531A64000AD04D /* PuzzleViewModel.swift */,
+				D1F1BF482B46CD0A0086F289 /* StandingsViewController.swift */,
+				D1E188C62B52A08C00B35246 /* StandingsViewModel.swift */,
+				D1AB80592B475DCC00EA7276 /* UserViewController.swift */,
+				D1DE25782B531A99000AD04D /* UserViewModel.swift */,
+				D158508B2B4848DA0035B9AA /* MyPuzzlesViewController.swift */,
+				D12178902B51633A00C90669 /* MyPuzzlesViewModel.swift */,
+				D1DE232D2B498B1B006BC90D /* EditProfileViewController.swift */,
+				D1E188C82B5309FF00B35246 /* EditProfileViewModel.swift */,
+			);
+			path = ModalViewControllers;
+			sourceTree = "<group>";
+		};
+		D1DC81B62B29AA3E00ECE6DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D1DC81B72B29AC0500ECE6DC /* AuthorizationModel.swift */,
+				D11041D62B342F72009D58E6 /* UserModel.swift */,
+				D14B89142B35809800CFF2AC /* PuzzleModel.swift */,
+				D17DE4332B3ADFC500DCC5F1 /* StatisticModel.swift */,
+				D1BF66762B3D6FC200825944 /* GrabberModel.swift */,
+				D19D1EFF2B4366AE00C1EAC1 /* AttemptModel.swift */,
+				D19D1F022B437E1B00C1EAC1 /* HelperModel.swift */,
+				D1F1BF4A2B46D34A0086F289 /* StandingModel.swift */,
+				D1BC72422B4C38F5003CEC49 /* FormModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D14DFFF22B2782E3005263F5 /* SudokuSolver - iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D14D00072B2782E4005263F5 /* Build configuration list for PBXNativeTarget "SudokuSolver - iOS" */;
+			buildPhases = (
+				80E045EC31FD97C1CCBAC063 /* [CP] Check Pods Manifest.lock */,
+				D14DFFEF2B2782E3005263F5 /* Sources */,
+				D14DFFF02B2782E3005263F5 /* Frameworks */,
+				D14DFFF12B2782E3005263F5 /* Resources */,
+				7DB4C41114C33E9E4266D255 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SudokuSolver - iOS";
+			productName = "SudokuSolver - iOS";
+			productReference = D14DFFF32B2782E3005263F5 /* SudokuSolver - iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D14DFFEB2B2782E3005263F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D14DFFF22B2782E3005263F5 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D14DFFEE2B2782E3005263F5 /* Build configuration list for PBXProject "SudokuSolver - iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D14DFFEA2B2782E3005263F5;
+			productRefGroup = D14DFFF42B2782E3005263F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D14DFFF22B2782E3005263F5 /* SudokuSolver - iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D14DFFF12B2782E3005263F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14D00032B2782E4005263F5 /* LaunchScreen.storyboard in Resources */,
+				D14D00002B2782E4005263F5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DB4C41114C33E9E4266D255 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SudokuSolver - iOS/Pods-SudokuSolver - iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SudokuSolver - iOS/Pods-SudokuSolver - iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SudokuSolver - iOS/Pods-SudokuSolver - iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80E045EC31FD97C1CCBAC063 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SudokuSolver - iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D14DFFEF2B2782E3005263F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10F45CC2B4AC45F00417BEE /* Button.swift in Sources */,
+				D17DE4322B3ADF4200DCC5F1 /* DonutChart.swift in Sources */,
+				D11AFE5C2B291FFE00F045A7 /* APIManager.swift in Sources */,
+				D1F1BF492B46CD0A0086F289 /* StandingsViewController.swift in Sources */,
+				D1E188C72B52A08C00B35246 /* StandingsViewModel.swift in Sources */,
+				D14D000D2B278399005263F5 /* LoginViewController.swift in Sources */,
+				D1F1BF4D2B46D7210086F289 /* UsersTableViewCell.swift in Sources */,
+				D19D1F032B437E1B00C1EAC1 /* HelperModel.swift in Sources */,
+				D148A2222B552B4D00709243 /* StatisticsViewModel.swift in Sources */,
+				D10F45D72B4B551400417BEE /* DataButtonsView.swift in Sources */,
+				D1C5EDE02B4FF98000CE208A /* LoginViewModel.swift in Sources */,
+				D158508C2B4848DA0035B9AA /* MyPuzzlesViewController.swift in Sources */,
+				D148A2262B5531F500709243 /* InputViewModel.swift in Sources */,
+				D14DFFF72B2782E3005263F5 /* AppDelegate.swift in Sources */,
+				D1E188C92B5309FF00B35246 /* EditProfileViewModel.swift in Sources */,
+				D1C7D19A2B3EC8B80004CC21 /* CandidateCollectionViewCell.swift in Sources */,
+				D148A22A2B5553F800709243 /* PuzzleSolutionMenuModelView.swift in Sources */,
+				D19D1F002B4366AE00C1EAC1 /* AttemptModel.swift in Sources */,
+				D1DE232E2B498B1B006BC90D /* EditProfileViewController.swift in Sources */,
+				D13075A62B409C0A001F36A2 /* NumpadCollectionViewCell.swift in Sources */,
+				D1BC72452B4C46EA003CEC49 /* PuzzleCollectionViewController.swift in Sources */,
+				D1547F0C2B339A1100A649AA /* TextField.swift in Sources */,
+				D10F45DC2B4B64E500417BEE /* InputView.swift in Sources */,
+				D1F1BF472B46BEF60086F289 /* Array.swift in Sources */,
+				D1C273272B28A2A0007B9456 /* NationalityPickerViewController.swift in Sources */,
+				D15A786E2B4D4F230023D22B /* PuzzlePlayMenuView.swift in Sources */,
+				D148A2202B55282B00709243 /* UserDataViewModel.swift in Sources */,
+				D14D000F2B2783A5005263F5 /* RegistrationViewController.swift in Sources */,
+				D185E57C2B4EC31C007F5F2E /* View.swift in Sources */,
+				D11DB3F72B4C167100CBF118 /* Date.swift in Sources */,
+				D14A6B402B3DAB7700AAB504 /* ImagePicker.swift in Sources */,
+				D15A78702B4D4F300023D22B /* PuzzleSolutionMenuView.swift in Sources */,
+				D1B1FBE62B32EA8600D17918 /* KeychainManager.swift in Sources */,
+				D17DE4342B3ADFC500DCC5F1 /* StatisticModel.swift in Sources */,
+				D148A2282B5553E700709243 /* PuzzlePlayMenuViewModel.swift in Sources */,
+				D1AB805A2B475DCC00EA7276 /* UserViewController.swift in Sources */,
+				D10F45D32B4B4CE500417BEE /* Int.swift in Sources */,
+				D1BF66772B3D6FC200825944 /* GrabberModel.swift in Sources */,
+				D148A22E2B55566800709243 /* ProfileFormViewModel.swift in Sources */,
+				D14DFFF92B2782E3005263F5 /* SceneDelegate.swift in Sources */,
+				D180BA212B33A38600AA1176 /* LoadingViewController.swift in Sources */,
+				D1F1BF4B2B46D34A0086F289 /* StandingModel.swift in Sources */,
+				D14B89152B35809800CFF2AC /* PuzzleModel.swift in Sources */,
+				D131E6282B46018300D903AD /* CollectionView.swift in Sources */,
+				D1DE25772B531A7D000AD04D /* NationalityPickerViewModel.swift in Sources */,
+				D10F45D12B4B4B0600417BEE /* String.swift in Sources */,
+				D1BC72412B4C32FE003CEC49 /* LoginFormView.swift in Sources */,
+				D11DB3F52B4C126100CBF118 /* ProfileFormView.swift in Sources */,
+				D1C5EDE62B50324200CE208A /* ProfileViewModel.swift in Sources */,
+				D1DC81BA2B29DD0E00ECE6DC /* ProfileViewController.swift in Sources */,
+				D11041D72B342F72009D58E6 /* UserModel.swift in Sources */,
+				D1C5EDE22B500E6900CE208A /* Notification.swift in Sources */,
+				D10F45D52B4B51D000417BEE /* StatisticsView.swift in Sources */,
+				D12178912B51633A00C90669 /* MyPuzzlesViewModel.swift in Sources */,
+				D1BC72432B4C38F5003CEC49 /* FormModel.swift in Sources */,
+				D10F45CF2B4B47F000417BEE /* UserDataView.swift in Sources */,
+				D1DE25752B531A65000AD04D /* PuzzleViewModel.swift in Sources */,
+				D1C5EDE42B501B8A00CE208A /* RegistrationViewModel.swift in Sources */,
+				D148A2242B552EBD00709243 /* DataButtonsViewModel.swift in Sources */,
+				D19242632B3E31E500C01BFF /* PuzzleViewController.swift in Sources */,
+				D1BC724A2B4C4776003CEC49 /* StandingsTableViewController.swift in Sources */,
+				D148A22C2B55556700709243 /* LoginFormViewModel.swift in Sources */,
+				D10F45DA2B4B63ED00417BEE /* PuzzlesListCollectionViewController.swift in Sources */,
+				D17A3E532B3C800400A85B07 /* DefaultCollectionViewCell.swift in Sources */,
+				D1F1BF512B46DDD20086F289 /* TableView.swift in Sources */,
+				D15A786C2B4D44BC0023D22B /* [[Int]].swift in Sources */,
+				D121B1D12B3993000008D251 /* PuzzlesListCollectionViewCell.swift in Sources */,
+				D19242652B3E3B7700C01BFF /* PuzzleCollectionViewCell.swift in Sources */,
+				D1DC81B82B29AC0500ECE6DC /* AuthorizationModel.swift in Sources */,
+				D1DE25792B531A99000AD04D /* UserViewModel.swift in Sources */,
+				D1BC72472B4C4706003CEC49 /* NumpadCollectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D14D00012B2782E4005263F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D14D00022B2782E4005263F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D14D00052B2782E4005263F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D14D00062B2782E4005263F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D14D00082B2782E4005263F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C61055E3BFA54D382F0F2D /* Pods-SudokuSolver - iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KM6M489FBH;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SudokuSolver - iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "con.LukaPodrug.SudokuSolver---iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D14D00092B2782E4005263F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED273C59E48E3FFC28355387 /* Pods-SudokuSolver - iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KM6M489FBH;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SudokuSolver - iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "con.LukaPodrug.SudokuSolver---iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D14D00072B2782E4005263F5 /* Build configuration list for PBXNativeTarget "SudokuSolver - iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14D00082B2782E4005263F5 /* Debug */,
+				D14D00092B2782E4005263F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D14DFFEE2B2782E3005263F5 /* Build configuration list for PBXProject "SudokuSolver - iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14D00052B2782E4005263F5 /* Debug */,
+				D14D00062B2782E4005263F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D14DFFEB2B2782E3005263F5 /* Project object */;
+}
